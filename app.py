@@ -6,7 +6,7 @@ Created on Wed Aug 24 10:36:43 2022
 import pickle   
 import streamlit as st 
 from streamlit_option_menu import option_menu
-incomeprediction_model = pickle.load(open('C:/Users/MICRO/Desktop/IncomePrediction/saved_model/incomeprediction_model.sav','rb'))
+incomeprediction_model = pickle.load(open('IncomePrediction/saved_model/incomeprediction_model.sav','rb'))
 with st.sidebar:
     selected = option_menu('HOME',
                            ['ABOUT PROJECT', 'INCOME PREDICTOR'],
